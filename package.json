@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Igoroliveira98/TDD_project#readme",
   "dependencies": {
     "chai": "^4.3.4",
+    "lokijs": "1.5",
     "mocha": "^8.3.2",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4"
