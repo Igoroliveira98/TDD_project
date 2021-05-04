@@ -1,0 +1,28 @@
+{
+  "name": "TDD_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --parallel --exit test/",
+    "test:dev": "npx mocha test/ -w",
+    "test:cov": "npx nyc --reporters=html,text npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igoroliveira98/TDD_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igoroliveira98/TDD_project/issues"
+  },
+  "homepage": "https://github.com/Igoroliveira98/TDD_project#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
